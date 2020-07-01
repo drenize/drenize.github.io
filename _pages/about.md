@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/shutterstock_624117902 2.jpg"
+  image: "/images/shutterstock_1466186471.jpg"
 ---
 
 I'm a psychologist and data scientist who excels at data wrangling, machine engineering, exploratory analysis, and data visualizations.
