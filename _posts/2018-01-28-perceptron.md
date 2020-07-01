@@ -1,63 +1,62 @@
 ---
-title: "Data Wrangling Project"
-date: 2018-01-28
-tags: [data wrangling, data science, messy data]
+title: "First Data Science Project - House Prices"
+date: 2020-06-13
+tags: [data wrangling, data science, messy data, machine learning]
 header:
-  image: "/images/perceptron/percept.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+  image: "/images/KChouse.png"
+excerpt: "Data Wrangling, Data Science, Messy Data, Machine Learning"
 mathjax: "true"
 ---
 
-# H1 Heading
+# EDA-Project-1-House-Prices
 
-## H2 Heading
+## Analysing King County House Market
 
-### H3 Heading
 
-Here's some basic text.
+This project is about predicting house prices in King County, Washington in the context of a data science bootcamp. The project journey goes through all stages of the data science cycle from business understanding, over data cleaning, to delivering predictions. Furthermore, a train-validation-test is implemented as well a multicollinearity check.
 
-And here's some *italics*
+The project aims at finding the best choice in real estate of mansion sized properties (defined as over 10,000sqft in size) in a price category of 3,5M upwards.
 
-Here's some **bold** text.
+You can find the code to the project [here](https://github.com/drenize/EDA-Project-1-House-Prices/blob/master/FirstProject_EDA_Drenize.ipynb)
 
-What about a [link](https://github.com/dataoptimal)?
+## Data Science Life Cycle
+1. Business Understanding
+2. Data Mining
+3. Data Cleaning
+4. Data Exploration
+5. Feature Engineering
+6. Predictive Modeling
+7. Data Visualisation
 
-Here's a bulleted list:
-* First item
-+ Second item
-- Third item
+## Data Cleaning
+Missing values occured in three categorical variables for which an imputation by mode has been applied. 
+- **waterfront**: 11% missing values
+- **view**: 0.3% missing values
+- **yr_renovated**: 17.8% missing values
 
-Here's a numbered list:
-1. First
-2. Second
-3. Third
+## Data Engineering
+Two variables, previously stored as object data types, were converted to an adequate data type
+- **sqft_basement**: numerical, int
+- **date**: from string to datetime
 
-Python code block:
-```python
-    import numpy as np
+Date was split into a month and a year variable to explore price variations over time. 
+A variable 'sqft_total_property' was created as the sum of 'sqft_living' and 'sqft_lot'.
 
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
-```
+## Model Choice
+Linear regression modeling is explored for prices. Features were chosen through an algorithm by significance.
 
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
+## Results and Recommendations
+- In the course of 1 year there is a 10.4% price decrease in luxury house prices. Therefore, it is recommended to by a luxurious mansion sized house in 2015.
+- When buying a property of more than 10,000 sqft space
+a. buy at the waterfront
+b. with 1.5 of floors
+c. graded with a 10 or 11
 
-Here's some inline code `x+y`.
+## Future Work
+- improve  and apply the linear model by reducing features and evaluate train-test split
+- compare price segments
+- search for underrated objects
+- explore multicollinearity
 
-Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
-
-Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
-
-Here's some math:
-
-$$z=x+y$$
-
-You can also put it inline $$z=x+y$$
+## Presentation
+You can find the final presentation of the business case [here](https://github.com/drenize/EDA-Project-1-House-Prices/blob/master/House_Prices_Prediction_Drenize.pdf)
