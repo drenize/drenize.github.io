@@ -1,10 +1,10 @@
 ---
 title: "Data Wrangling Project"
-date: 2018-01-28
-tags: [data wrangling, data science, messy data]
+date: 2020-06-30
+tags: [data engineering, data science, messy data, machine_learning]
 header:
-  image: "/images/perceptron/percept.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+  image: "/images/drugs_personality/benzos.png"
+excerpt: "Data Engineering, Data Science, Messy Data, Machine Learning"
 mathjax: "true"
 ---
 
