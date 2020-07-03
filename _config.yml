@@ -29,7 +29,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : "dark" # "light" (default), "dark"
+    colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Drenizë Rama"
   avatar           : "/images/shutterstock_624117902 2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science"
+  bio              : "Data Scientist"
   location         : "Hamburg, Germany"
   email            :
   uri              :
