@@ -1,5 +1,5 @@
 ---
-title: "Data Wrangling Project"
+title: "Data Science Project"
 date: 2020-06-30
 tags: [data engineering, data science, messy data, machine_learning]
 header:
