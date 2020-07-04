@@ -1,5 +1,5 @@
 ---
-title: "Data Science Project"
+title: "First Machine Learning Project: Drugs and Personality"
 date: 2020-06-30
 tags: [data engineering, data science, messy data, machine_learning]
 header:
