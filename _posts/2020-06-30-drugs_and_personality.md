@@ -1,5 +1,5 @@
 ---
-title: "First Machine Learning Project: Drugs and Personality"
+title: ![alt text](/images/drugs_personality/benzos.png)"First Machine Learning Project: Drugs and Personality"
 date: 2020-06-30
 tags: [data engineering, data science, messy data, machine_learning]
 header:
@@ -9,9 +9,8 @@ excerpt: "Data Engineering, Data Science, Messy Data, Machine Learning"
 mathjax: "true"
 ---
 
-# Drug Abuse and Personality Traits
 
-![alt text](/images/drugs_personality/benzos.png)
+# Drug Abuse and Personality Traits
 
 **Objective**
 
