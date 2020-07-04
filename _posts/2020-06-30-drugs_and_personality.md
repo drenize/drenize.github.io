@@ -11,6 +11,8 @@ mathjax: "true"
 
 # Drug Abuse and Personality Traits
 
+![/images/drugs_personality/benzos.png]
+
 **Objective**
 
 This project aims at examining the relationship between personality traits and drug consumption.
