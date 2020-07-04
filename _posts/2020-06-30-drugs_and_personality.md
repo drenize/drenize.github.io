@@ -11,7 +11,7 @@ mathjax: "true"
 
 # Drug Abuse and Personality Traits
 
-![/images/drugs_personality/benzos.png]
+![alt text](/images/drugs_personality/benzos.png)
 
 **Objective**
 
