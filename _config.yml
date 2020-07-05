@@ -246,6 +246,7 @@ defaults:
   - scope:
       path: ""
       type: posts
+      teaser: "/images/touchingcropped.jpg"
     values:
       layout: single
       author_profile: true
