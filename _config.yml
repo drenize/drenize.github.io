@@ -246,7 +246,6 @@ defaults:
   - scope:
       path: ""
       type: posts
-      teaser: "/images/touchingcropped.jpg"
     values:
       layout: single
       author_profile: true
@@ -254,7 +253,6 @@ defaults:
       comments: # true
       share: true
       related: true
-      teaser: "/images/touchingcropped.jpg"
 
   # _pages
   - scope:
@@ -263,4 +261,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-      teaser: "/images/touchingcropped.jpg"
