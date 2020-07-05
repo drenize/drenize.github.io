@@ -3,6 +3,7 @@ title: "First Data Science Project - House Prices"
 date: 2020-06-13
 tags: [data wrangling, data science, messy data, machine learning]
 header:
+  teaser: "/images/KChouse.png"
   image: "/images/KChouse.png"
 excerpt: "Data Wrangling, Data Science, Messy Data, Machine Learning"
 mathjax: "true"
