@@ -263,3 +263,4 @@ defaults:
     values:
       layout: single
       author_profile: true
+      teaser: "/images/touchingcropped.jpg"
