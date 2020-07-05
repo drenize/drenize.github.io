@@ -243,7 +243,6 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-  teaser: "/images/touchingcropped.jpg"
   - scope:
       path: ""
       type: posts
@@ -254,6 +253,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      teaser: "/images/touchingcropped.jpg"
 
   # _pages
   - scope:
