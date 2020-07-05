@@ -1,15 +1,20 @@
 ---
-title: "First Machine Learning Project: Drugs and Personality"
+title: "First Machine Learning Project: Drugs and Personality Data"
 date: 2020-06-30
 tags: [data engineering, data science, messy data, machine_learning]
 header:
   teaser: "/images/drugs_personality/benzos.png"
   image: "/images/drugs_personality/benzos.png"
-excerpt: "Data Engineering, Data Science, Messy Data, Machine Learning"
+  teaser: "https://github.com/drenize/drenize.github.io/blob/master/images/drugs_personality/benzos.png"
+excerpt: "Data Engineering, Data Science Life Cyclw, Machine Learning"
 mathjax: "true"
 ---
 
 # Drug Abuse and Personality Traits
+Authors: Drenizë Rama & [Eike Rogall](https://rogall-e.github.io/)
+
+[Jupyter Notebook](https://github.com/drenize/drug_abuse_and_personality/blob/master/Drug_Risk_Project.ipynb) <br>
+
 
 **Objective**
 
