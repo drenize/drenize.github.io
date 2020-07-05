@@ -1,11 +1,11 @@
 ---
-title: "First Machine Learning Project: Drugs and Personality Data"
+title: "Drugs and Personality"
 date: 2020-06-30
 tags: [data engineering, data science, messy data, machine_learning]
 header:
   image: "/images/drugs_personality/benzos.png"
   teaser: "/images/drugs_personality/benzos.png"
-excerpt: "Data Engineering, Data Science Life Cyclw, Machine Learning"
+excerpt: "First Machine Learning Project"
 mathjax: "true"
 ---
 
