@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Drenizë Rama Data Science Portfolio"
+title                    : "Drenizë Rama | Data Science Portfolio"
 title_separator          : "-"
 name                     : "Drenizë Rama"
 description              : "Data Scientist"
