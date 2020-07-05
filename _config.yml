@@ -253,7 +253,7 @@ defaults:
       comments: # true
       share: true
       related: true
-    teaser: "/images/touchingcropped.jpg"
+      teaser: "/images/touchingcropped.jpg"
 
   # _pages
   - scope:
