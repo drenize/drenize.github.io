@@ -1,14 +1,6 @@
 ---
 layout: archive
 ---
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
 _________________________________________
 
 <!DOCTYPE html>
@@ -18,11 +10,19 @@ _________________________________________
    </head>
 
    <body>
-      <h1>Our Products</h1>
-      <p style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
+      <h1> </h1>
+      <p style = "font-family:georgia,garamond,serif;font-size:36px;font-style:italic;">
       'All businesses could use a garden where Data Scientists plant seeds of possibility and water them with collaboration.' ― Damian Mingle     </p>
    </body>
 
 </html>
 
 _________________________________________
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
