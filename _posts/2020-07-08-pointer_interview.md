@@ -13,4 +13,4 @@ mathjax: "true"
 
 The interview done by [Pointer](https://www.pointer.de/) at [Neue Fische](https://www.neuefische.de/)
 
-{% include youtubePlayer.html id="Y4deMExuhHI" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y4deMExuhHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
