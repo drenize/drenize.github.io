@@ -1,7 +1,7 @@
 ---
 title: "Wie läuft ein Technology Bootcamp ab?"
 date: 2020-07-08
-tags: [data science]
+tags: [blog, data science]
 header:
   teaser: 
   image: 
