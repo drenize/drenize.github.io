@@ -1,5 +1,5 @@
 ---
-layout: blogpost
+layout: post
 title: "Blog"
 permalink: /blog/
 author_profile: true
