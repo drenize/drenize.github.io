@@ -4,12 +4,12 @@ layout: blogpost
 
 {{ content }}
 
-{% assign postsByYear = site.blogposts | group_by_exp: 'blogpost', 'blogpost.date | date: "%Y"' %}
+{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="entries-{{ page.entries_layout | default: 'list' }}">
-      {% for blogpost in year.items %}
+      {% for post in year.items %}
         {% include archive-single.html type=page.entries_layout %}
       {% endfor %}
     </div>
