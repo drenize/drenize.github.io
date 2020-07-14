@@ -259,5 +259,5 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: collection
+      layout: single
       author_profile: true
