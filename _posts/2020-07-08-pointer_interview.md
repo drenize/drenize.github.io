@@ -1,4 +1,5 @@
 ---
+layout: splash
 title: "Wie läuft ein Technology Bootcamp ab?"
 date: 2020-07-08
 tags: [blog, interview, career]
