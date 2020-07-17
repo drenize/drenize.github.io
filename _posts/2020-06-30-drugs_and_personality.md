@@ -12,7 +12,7 @@ mathjax: "true"
 # Drug Abuse and Personality Traits
 Authors: Drenizë Rama & [Eike Rogall](https://rogall-e.github.io/)
 
-[Jupyter Notebook](https://github.com/drenize/drug_abuse_and_personality/blob/master/Drug_Risk_Project.ipynb) <br>
+For the whole code on this project please click [here](https://github.com/drenize/drug_abuse_and_personality/blob/master/Drug_Risk_Project.ipynb) <br>
 
 
 **Objective**
@@ -48,6 +48,47 @@ New features were build:
 + illegal = illegal drugs
 + hard_score = includes personality traits neuroticism(Nscore), extraversion (Escore), open to new experiences (Oscore), sensation seeking (SS), impulsiveness (impulsive)
 + hardliners = 10% highest scoring participants on hard_score
+
+Packages I imported for this project: 
+
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import statsmodels.api as sm
+
+
+#split data into test and training data sets
+from sklearn.model_selection import train_test_split
+
+#packages for building a pipeline
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.impute import SimpleImputer
+from sklearn.model_selection import cross_val_predict, cross_val_score, cross_validate
+from sklearn.metrics import roc_curve, confusion_matrix, accuracy_score, recall_score, precision_score
+from sklearn.metrics import f1_score
+from sklearn.compose import ColumnTransformer
+from sklearn.metrics import classification_report 
+
+#feature importance
+from sklearn.inspection import permutation_importance
+from sklearn.datasets import make_classification
+from sklearn.feature_selection import SelectFromModel
+
+#import classification models
+from xgboost import XGBClassifier
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
+
+
+#GridSearch model improvement
+from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
+from sklearn.metrics import make_scorer
+from sklearn.model_selection import StratifiedKFold
+
 
 ## Predictive Modeling
 Models were applied and compared for recall and accuracy scores
