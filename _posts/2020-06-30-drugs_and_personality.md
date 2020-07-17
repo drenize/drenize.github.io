@@ -102,7 +102,7 @@ First we created a label of people who have recently consumed drugs, namely last
     drug_rec_dum.values[drug_rec_dum > 0] = 1
     drug_risk = pd.concat([drug_risk, drug_rec_dum], axis=1)
     drug_risk.rename(columns={0: "ill_rec"}, inplace=True)
-
+```
 
 ## Predictive Modeling
 Models were applied and compared for recall and accuracy scores
