@@ -104,6 +104,16 @@ First we created a label of people who have recently consumed drugs, namely last
     drug_risk.rename(columns={0: "ill_rec"}, inplace=True)
 ```
 
+Then we created a label for a high risk group and called it *hardliner*.
+This group of people makes 10% of highest scoring participants on neuroticism, openness to new experiences, extraversion, impulsiveness, as well as sensation seeking. We made this decision because these personality traits are strongly associated with taking higher riks and getting oneself in trouble more often.
+
+```python 
+# hardliner = neuroticism + extraversion + high impulsiveness + high SS
+
+drug_risk.eval('hard_score = Nscore + Escore + Impulsive + SS', inplace = True)
+drug_risk.head()
+```
+
 ## Predictive Modeling
 Models were applied and compared for recall and accuracy scores
 + XGBClassifier
