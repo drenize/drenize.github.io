@@ -51,7 +51,7 @@ New features were build:
 
 Packages I imported for this project: 
 
-'''python
+```python
     import pandas as pd
     import numpy as np
     import seaborn as sns
@@ -89,7 +89,7 @@ Packages I imported for this project:
     from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
     from sklearn.metrics import make_scorer
     from sklearn.model_selection import StratifiedKFold
-'''
+```
 
 ## Predictive Modeling
 Models were applied and compared for recall and accuracy scores
