@@ -51,6 +51,7 @@ New features were build:
 + hard_score = includes personality traits neuroticism(Nscore), extraversion (Escore), open to new experiences (Oscore), sensation seeking (SS), impulsiveness (impulsive)
 + hardliners = 10% highest scoring participants on hard_score
 
+
 Packages I imported for this project: 
 
 ```python
@@ -92,6 +93,16 @@ Packages I imported for this project:
     from sklearn.metrics import make_scorer
     from sklearn.model_selection import StratifiedKFold
 ```
+
+First we created a label of people who have recently consumed drugs, namely last week or yesterday:
+```python
+    drug_rec = drug_risk[illegal] > 5
+    drug_rec[illegal] = drug_rec[illegal].astype(int)
+    drug_rec_dum = drug_rec[illegal].sum(axis=1)
+    drug_rec_dum.values[drug_rec_dum > 0] = 1
+    drug_risk = pd.concat([drug_risk, drug_rec_dum], axis=1)
+    drug_risk.rename(columns={0: "ill_rec"}, inplace=True)
+
 
 ## Predictive Modeling
 Models were applied and compared for recall and accuracy scores
