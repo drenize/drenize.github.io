@@ -15,7 +15,7 @@ Authors: Drenizë Rama & [Eike Rogall](https://rogall-e.github.io/)
 So for our second portfolio project in the data science bootcamp we tackled the task of examining the relationship between drug abuse and personality traits. 
 In order to do so, we used the [UCI dataset](https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29) on drug consumption. Personality traits have been assessed with the [NEO-FFI-Revised Scale](https://arxiv.org/abs/1506.06297). 
 For the whole code on this project please click [here](https://github.com/drenize/drug_abuse_and_personality/blob/master/Drug_Risk_Project.ipynb) <br>
-
+You can read more about the research on personality and drug consumtion [here](https://www.ncbi.nlm.nih.gov/books/NBK236259/).
 
 **Objective**
 
