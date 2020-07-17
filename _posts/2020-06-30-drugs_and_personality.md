@@ -52,43 +52,43 @@ New features were build:
 Packages I imported for this project: 
 
 '''python
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import statsmodels.api as sm
+    import pandas as pd
+    import numpy as np
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+    import statsmodels.api as sm
 
 
-#split data into test and training data sets
-from sklearn.model_selection import train_test_split
+    #split data into test and training data sets
+    from sklearn.model_selection import train_test_split
 
-#packages for building a pipeline
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.impute import SimpleImputer
-from sklearn.model_selection import cross_val_predict, cross_val_score, cross_validate
-from sklearn.metrics import roc_curve, confusion_matrix, accuracy_score, recall_score, precision_score
-from sklearn.metrics import f1_score
-from sklearn.compose import ColumnTransformer
-from sklearn.metrics import classification_report 
+    #packages for building a pipeline
+    from sklearn.pipeline import Pipeline
+    from sklearn.preprocessing import OneHotEncoder, StandardScaler
+    from sklearn.impute import SimpleImputer
+    from sklearn.model_selection import cross_val_predict, cross_val_score, cross_validate
+    from sklearn.metrics import roc_curve, confusion_matrix, accuracy_score, recall_score, precision_score
+    from sklearn.metrics import f1_score
+    from sklearn.compose import ColumnTransformer
+    from sklearn.metrics import classification_report 
 
-#feature importance
-from sklearn.inspection import permutation_importance
-from sklearn.datasets import make_classification
-from sklearn.feature_selection import SelectFromModel
+    #feature importance
+    from sklearn.inspection import permutation_importance
+    from sklearn.datasets import make_classification
+    from sklearn.feature_selection import SelectFromModel
 
-#import classification models
-from xgboost import XGBClassifier
-from sklearn.ensemble import AdaBoostClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
-from sklearn.tree import DecisionTreeClassifier
+    #import classification models
+    from xgboost import XGBClassifier
+    from sklearn.ensemble import AdaBoostClassifier
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.svm import SVC
+    from sklearn.tree import DecisionTreeClassifier
 
 
-#GridSearch model improvement
-from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
-from sklearn.metrics import make_scorer
-from sklearn.model_selection import StratifiedKFold
+    #GridSearch model improvement
+    from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
+    from sklearn.metrics import make_scorer
+    from sklearn.model_selection import StratifiedKFold
 '''
 
 ## Predictive Modeling
